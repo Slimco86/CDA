@@ -27,7 +27,7 @@ The LD class (LD.py) provides a material library with a variaty of metals and fe
 
 ![alt text](https://github.com/Slimco86/CDA/blob/master/pictures/Mat_dep.png)
 
-In more complex cases, one whants to simmulate the response of an arrangements of the dipoles. In cases with metallic nanoparticles
+In more complex cases, one wants to simulate the response of an arrangements of the dipoles. In cases with metallic nanoparticles
 the dipole approximation works up to around 100nm in radius. So if we are dealing with particles of such sizes, we can mimic the response 
 of the lattice. In the Lattice class (Lattice.py) a variety of the lattices is avaliable : Square, Honeycomb, Hexagonal and a couple of 
 Graphyne-based structures. The structures can be easily extended. 
