@@ -50,7 +50,7 @@ Finally, it is possible to visualize the field of the dipolar arrangements proje
 ![alt text](https://github.com/Slimco86/CDA/blob/master/pictures/Dipole%20Y.png)
 
 With the Mueller matrix routine (MM_sub.py), one can calculate a Mueller-Jones matrix from dipolar orientation calculated for p- and s-polarizations, following the approach provided in the DDSCAT software. The Mueller matrix is visualized as slices or with azimuthal dependence dependent on the requirements. The example of elliptical particle Mueller matrix is shown below.
-![alt text](https://github.com/Slimco86/CDA/blob/master/pictures/95_105 MM.png)
+![alt text](https://github.com/Slimco86/CDA/blob/master/pictures/95_105_MM.png)
 
 In the Example folder one can find the examples for all the use cases.
 
