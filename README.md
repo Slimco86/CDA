@@ -14,7 +14,7 @@ In simple case the objective of the program is to calculate the responce of an e
 orientation of the dipole and its field. This is done by assuming the polarizability tensors of the medium and the nanoparticles, for each particle, resulting in the 3Nx3N inverse polarizability matrix α, where N is the total number of the dipoles.
 The dipole moment matrix is determined as P=αE, where E is a self-consistent field E=E_inc+E_ind, where E_inc is an incident field and E_ind is the induced field of the dipole array. The polarizability α is a tensor, which is scalar for a sphere, but also
 can be tensor and non-diagonal if the particle is assumed to have some elliptical shape. In this case the depolarization factor of the dipole is calculated and the tensor is modified accordingly. The depolarization factor is calculated as the polarizability correction term and is expressed as: 
-![alt text](https://github.com/Slimco86/CDA/blob/master/pictures/dep-factor.png)
+![alt text](https://github.com/Slimco86/CDA/blob/master/pictures/dep-factor.gif)
 
 This allows user to calculate the response of the non spherical particles which can be approximated by a dipole (for gold up to 100 nm in radius, based on Mie expansion coefficients). The program supports a variety of different lattice arrangements and different matrials.
 
