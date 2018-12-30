@@ -1,0 +1,16 @@
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 0 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 5 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 10 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 15 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 20 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 25 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 30 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 35 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 40 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 45 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 50 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 55 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 60 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 65 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 70 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
+python3 CDA.py 4e-07 1.1e-06 3e-09 1e-05 3e-08 3e-08 2.4e-08 75 60 Au 1.25 5 5 8.999999999999999e-08 Betta_Graphyne_ext home/Ievgen_stuff/Coupled_Dipole_-Approximation/Results/Graphyne_half/S s
