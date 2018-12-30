@@ -20,32 +20,32 @@ can be tensor and non-diagonal if the particle is assumed to have some elliptica
  As an exaple here is extinction efficiency for Au nanoparticle in n=1.5 medium of in plane radius 60 nm
 and different aspect ratio in respect to an out-of-plane axis.
 
-![alt text](https://github.com/Slimco86/Coupled_Dipole_-Approximation/blob/master/pictures/Aspect-ratio.png)
+![alt text](https://github.com/Slimco86/CDA/blob/master/pictures/Aspect-ratio.png)
 
 
 The LD class (LD.py) provides a material library with a variaty of metals and few dielectrics, which are generated based on Lorentz-Drude equation in case of metals, or Cauchy equation in case of dielectrics.
 
-![alt text](https://github.com/Slimco86/Coupled_Dipole_-Approximation/blob/master/pictures/Mat_dep.png)
+![alt text](https://github.com/Slimco86/CDA/blob/master/pictures/Mat_dep.png)
 
 In more complex cases, one whants to simmulate the response of an arrangements of the dipoles. In cases with metallic nanoparticles
 the dipole approximation works up to around 100nm in radius. So if we are dealing with particles of such sizes, we can mimic the response 
 of the lattice. In the Lattice class (Lattice.py) a variety of the lattices is avaliable : Square, Honeycomb, Hexagonal and a couple of 
 Graphyne-based structures. The structures can be easily extended. 
 
-![alt text](https://github.com/Slimco86/Coupled_Dipole_-Approximation/blob/master/pictures/lattice.jpg)
+![alt text](https://github.com/Slimco86/CDA/blob/master/pictures/lattice.jpg)
 
 
 One can be interested in the dispersion relation of such arrangements. In such a case it is easy to calculate the responce at several angles of incidence. As the CDA is a self consistent method, the contributions from the lattice (i.e. the diffraction and interference) is also calculated as an interference of the dipoles. Using avaliable visualization scripts one can plot the dispersion relation. As shown here, a particular example for the particles of 60 nm in-plane radius and 24 nm height, arranged in the square lattice with period of 600 nm and embeded in the medium with refractive index n=1.5. One can clearly observe a couple of diffraction orders coupled to the LSPR and leading to anomalous dispersion.
 
-![alt text](https://github.com/Slimco86/Coupled_Dipole_-Approximation/blob/master/pictures/disp1.png)
+![alt text](https://github.com/Slimco86/CDA/blob/master/pictures/disp1.png)
 
 
 If interested in dipolar lattice orientation and modes propagation, the user can use the Dipole_Viz.py , providing the calculated file and the wavelength in nm to obtain the animation of the oscillations.
-![alt text](https://github.com/Slimco86/Coupled_Dipole_-Approximation/blob/master/pictures/Webp.net-gifmaker%20(7).gif)
+![alt text](https://github.com/Slimco86/CDA/blob/master/pictures/Webp.net-gifmaker%20(7).gif)
 
 
 Finally, it is possible to visualize the field of the dipolar arrangements projected on planes in certesian bases. As shown on the following figure, the 3-compnents of the dipole field are projected on the Z-plane which is situated 50 nm above the square lattice. 
-![alt text](https://github.com/Slimco86/Coupled_Dipole_-Approximation/blob/master/pictures/Dipole%20Y.png)
+![alt text](https://github.com/Slimco86/CDA/blob/master/pictures/Dipole%20Y.png)
 
 With the Mueller matrix routine (MM_sub.py), one can calculate a Mueller-Jones matrix from dipolar orientation calculated for p- and s-polarizations, following the approach provided in the DDSCAT software. The Mueller matrix is visualized as slices or with azimuthal dependence dependent on the requirements.
 
