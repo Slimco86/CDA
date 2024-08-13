@@ -202,6 +202,18 @@ if __name__=='__main__':
     f.create_dataset('AZI', data= args.Azi)
     f.create_dataset('E_inc', data=E0_vec)
     f.close()
+
+    # Saving data in CSV format
+    csv_filename = "{}_{}_AOI-{}_Azi-{}_{}x{}_R={}nm_pol-{}.csv".format(args.mat, args.Lat, args.AOI, args.Azi, args.nx, args.ny, round(args.a * 1e9), args.pol)
+
+    with open(csv_filename, mode='w', newline='') as csv_file:
+        writer = csv.writer(csv_file)
+        # Writing headers
+        writer.writerow(['Wavelength (m)', 'Extinction Cross Section', 'Absorption Cross Section', 'Scattering Cross Section',
+                         'Extinction Efficiency', 'Absorption Efficiency', 'Scattering Efficiency'])
+        # Writing data
+        for i in range(len(wave)):
+            writer.writerow([wave[i], c_ext[i], c_abs[i], c_scat[i], q_ext[i], q_abs[i], q_scat[i]])
     
        
         
